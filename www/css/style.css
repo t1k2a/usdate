@@ -1,0 +1,152 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, 'Noto Sans Japanese', "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-weight: 100;
+    background-color: #F9F2F2;
+}
+
+div {
+    height: 100%;
+}
+
+.button1 {
+    width: 70%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	display: block;
+    margin-top: 140%;
+}
+
+#earth {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	display: block;
+}
+
+.text{
+    text-align: center;
+    font-size: 2em;
+    margin: 75% 0 0 0;
+    color: #5B5B5B;
+}
+
+.button {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+	display: block;
+    top: 30%;
+}
+
+.button img {
+    width: 48.5%;
+    padding: 0%;
+    margin: 0;
+}
+
+ul, li {
+  padding: 0px;
+  margin: 0px;
+}
+
+.slot {
+  padding:0px;
+  margin: 0px;
+
+  height: 40px;
+  overflow: hidden;
+  border: 1px solid #9C9C9C;
+  
+  background: -webkit-gradient (
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(171,171,171)),
+    color-stop(0.5, rgb(230,230,230)),
+    color-stop(1, rgb(171,171,171))
+  );
+  
+  background: -moz-linear-gradient (
+    center bottom,
+    rgb(171,171,171) 0%,
+    rgb(230,230,230) 50%,
+    rgb(171,171,171) 100%
+  );
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.slot ul {
+  margin: 0px 0px 40px 0px;
+}
+
+.slot ul li {
+  font-family: 'メイリオ',Meiryo,'Osaka',cursive;
+  padding-left: 5px;
+  height: 40px;
+  font-size: 1.5em;
+  color: blue;
+  white-space: nowrap;
+}
+
+#img1{
+    width: 50%;
+    position:absolute;
+    visibility:hidden;
+}
+
+.map{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 30%;
+    margin: 1em 0 1em 0;
+}
+
+.resultImage{
+    width: 90%;
+    margin: 0 0 0 5%;
+}
+
+.resultH1{
+    margin: 1em 0 0.5em 5%;
+    padding: 0;
+    font-size: 24px;
+    color: #EF3F3F;
+}
+
+.resultDescription{
+    width: 90%;
+    margin: 0 0 0 5%;
+}
+
+.resultDescription p{
+    color: #5B5B5B;
+}
+.history{
+     width: 48.5%;
+    padding: 0%;
+    margin: 0;
+}
